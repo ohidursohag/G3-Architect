@@ -1,0 +1,39 @@
+:root {
+  --dark1: #131313;
+  --dark2: #424242;
+  --dark3: #727272;
+  --orange: #ff900e;
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+body {
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+/* ==== Shared Claass ===== */
+
+.title-2 {
+  color: var(--dark1);
+  font-size: 45px;
+  font-weight: 700;
+}
+.title-3 {
+   color: var(--dark1);
+  font-size: 20px;
+  font-weight: 600;
+}
+.description-text {
+  color: var(--dark3);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* ======= Header Section ======= */
