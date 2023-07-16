@@ -7,7 +7,8 @@
     flex-direction: column;
     padding-top: 2rem;
   }
-  .logo {
+  .logo,
+  .features-title {
     margin: auto;
     font-size: 2.5rem;
     margin-bottom: 10px;
@@ -26,7 +27,7 @@
 
   /* Header Content & Banner */
   .banner-container {
-    margin-top: 3rem;
+    margin: 3rem 0;
   }
   .header-content {
     max-width: 95%;
@@ -47,6 +48,42 @@
     width: 9rem;
     height: 3.5rem;
     font-size: 1rem;
+  }
+
+  /* ===== Main/Body Contents Section Start ===== */
+  /* Features Section */
+  .features-container {
+    margin-bottom: 2rem;
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+  .features-image-grid {
+    gap: 1rem;
+  }
+
+  /* Working Area/Fields */
+  .working-area-container {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .working-field {
+    padding: 15px;
+  }
+  .working-area-header-container > h1 {
+    max-width: 360px;
+  }
+  .working-field:last-child {
+    margin: auto;
+  }
+  .working-area-image {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .experience-stiker {
+
+    border-radius: 80px 0px;
+    left: 10px;
+    bottom: -100px;
   }
 }
 
@@ -73,7 +110,7 @@
   }
   /* Header Content & Banner */
   .banner-container {
-    margin-top: 3rem;
+    margin: 3rem 0;
   }
   .header-content {
     max-width: 95%;
@@ -90,11 +127,46 @@
     padding: 0 10px;
   }
   .btn-primary {
-   margin: 1.5rem 0 2rem 0;
-   width: 10rem;
-   height: 3.5rem;
-   font-size: 1.125rem;
- }
+    margin: 1.5rem 0 2rem 0;
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 1.125rem;
+  }
+  /* ===== Main/Body Contents Section Start ===== */
+  /* Features Section */
+
+  .features-title {
+    margin: auto;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  /* Working Area/Fields */
+  .working-area-container {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .working-field {
+    padding: 15px;
+  }
+  .working-area-header-container > h1 {
+    max-width: 450px;
+  }
+  .working-field:last-child {
+    margin: auto;
+  }
+  .working-area-image {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .experience-stiker {
+    width: 340px;
+    height: 200px;
+    border-radius: 80px 0px;
+    left: 25%;
+    bottom: -100px;
+  }
 }
 
 /* ======Learge Device- Tablates/Laptops  */
@@ -115,29 +187,79 @@
   }
   /* Header Content & Banner */
   .banner-container {
-   margin-top: 3rem;
- }
- .header-content {
-   max-width: 95%;
- }
- .header-title {
-   font-size: 3rem;
-   line-height: 3.5rem;
-   margin-bottom: 1rem;
- }
- 
- .btn-primary {
-  margin: 1.5rem 0 2rem 0;
-  width: 11rem;
-  /* height: 3.5rem; */
-  font-size: 1.125rem;
-}
+    margin-top: 3rem;
+  }
+  .header-content {
+    max-width: 95%;
+  }
+  .header-title {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn-primary {
+    margin: 1.5rem 0 2rem 0;
+    width: 11rem;
+    /* height: 3.5rem; */
+    font-size: 1.125rem;
+  }
+  /* ===== Main/Body Contents Section Start ===== */
+
+  /* Working Area/Fields */
+  .working-area-container {
+    align-items: center;
+    padding: 0 20px;
+  }
+  .working-field {
+    padding: 15px;
+  }
+  .working-area-header-container > h1 {
+    max-width: 450px;
+  }
+  .working-field:last-child {
+    margin: auto;
+  }
+  .working-area-content {
+    flex: 0 0 50%;
+  }
+  .working-area-image {
+    align-self: center;
+    flex: 0 0 45%;
+  }
+  .experience-stiker {
+    width: 340px;
+    height: 200px;
+    left: 0;
+    bottom: 65px;
+  }
 }
 /* ==== EXtra ==== */
-@media screen and (min-width: 992.2px) and (max-width: 1027px) {
-   .header-title {
-      font-size: 3.5rem;
-      line-height: 4rem;
-      margin-bottom: 1rem;
-    }
+@media screen and (min-width: 992.2px) and (max-width: 1100px) {
+  .header-title {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+  }
+
+/* Working Area/Fields */
+.working-area-container {
+  align-items: center;
+  padding: 0 20px;
+}
+.working-area-content {
+  flex: 0 0 50%;
+}
+.working-area-image {
+  align-self: flex-end;
+  flex: 0 0 45%;
+}
+.experience-stiker {
+  width: 340px;
+  height: 200px;
+  border-radius: 80px 0px;
+  left: 0;
+  bottom: 100px;
+}
+
 }
