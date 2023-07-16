@@ -1,0 +1,143 @@
+/* ====== Small Device - Phone ======= */
+@media screen and (max-width: 576px) {
+  /*====== Header Section==== */
+
+  /* Nav Manu */
+  .nav-container {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .logo {
+    margin: auto;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  .logo > span {
+    font-size: 45px;
+  }
+  .navigation-manu {
+    width: 90vw;
+    justify-content: space-between;
+  }
+  .navigation-manu > li {
+    margin: 0 0;
+    font-size: 1rem;
+  }
+
+  /* Header Content & Banner */
+  .banner-container {
+    margin-top: 3rem;
+  }
+  .header-content {
+    max-width: 95%;
+  }
+  .header-title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+  br {
+    display: none;
+  }
+  .description-text {
+    padding: 0 10px;
+  }
+  .btn-primary {
+    margin: 1.5rem 0 2rem 0;
+    width: 9rem;
+    height: 3.5rem;
+    font-size: 1rem;
+  }
+}
+
+/* ======= Medium Device- Phone/Tab. */
+@media screen and (min-width: 576.2px) and (max-width: 768px) {
+  /*====== Header Section==== */
+
+  /* Nav Manu */
+  .nav-container {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .logo {
+    margin-bottom: 15px;
+  }
+
+  .navigation-manu {
+    width: 90vw;
+    justify-content: space-around;
+  }
+  .navigation-manu > li {
+    margin: 0 0;
+    font-size: 1.125rem;
+  }
+  /* Header Content & Banner */
+  .banner-container {
+    margin-top: 3rem;
+  }
+  .header-content {
+    max-width: 95%;
+  }
+  .header-title {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  br {
+    display: none;
+  }
+  .description-text {
+    padding: 0 10px;
+  }
+  .btn-primary {
+   margin: 1.5rem 0 2rem 0;
+   width: 10rem;
+   height: 3.5rem;
+   font-size: 1.125rem;
+ }
+}
+
+/* ======Learge Device- Tablates/Laptops  */
+@media screen and (min-width: 768.2px) and (max-width: 992px) {
+  /*====== Header Section==== */
+
+  /* Nav Manu */
+  .navigation-manu {
+    flex: 0 0 55%;
+  }
+  .navigation-manu > li {
+    margin: auto;
+  }
+  .logo {
+    flex: 0 0 40%;
+    font-size: 2.5rem;
+    margin: auto;
+  }
+  /* Header Content & Banner */
+  .banner-container {
+   margin-top: 3rem;
+ }
+ .header-content {
+   max-width: 95%;
+ }
+ .header-title {
+   font-size: 3rem;
+   line-height: 3.5rem;
+   margin-bottom: 1rem;
+ }
+ 
+ .btn-primary {
+  margin: 1.5rem 0 2rem 0;
+  width: 11rem;
+  /* height: 3.5rem; */
+  font-size: 1.125rem;
+}
+}
+/* ==== EXtra ==== */
+@media screen and (min-width: 992.2px) and (max-width: 1027px) {
+   .header-title {
+      font-size: 3.5rem;
+      line-height: 4rem;
+      margin-bottom: 1rem;
+    }
+}

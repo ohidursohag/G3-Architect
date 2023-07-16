@@ -12,21 +12,21 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
-body {
-   max-width: 1440px;
-   margin: 0 auto;
+body:not(".header") {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /* ==== Shared Claass ===== */
 
 .title-2 {
   color: var(--dark1);
-  font-size: 45px;
+  font-size: 2.75rem;
   font-weight: 700;
 }
 .title-3 {
-   color: var(--dark1);
-  font-size: 20px;
+  color: var(--dark1);
+  font-size: 1.25rem;
   font-weight: 600;
 }
 .description-text {
@@ -35,5 +35,82 @@ body {
   font-weight: 400;
   line-height: 26px;
 }
+.btn-primary {
+   margin: 2rem 0 3.12rem 0;
+   width: 11.25rem;
+   height: 4rem;
+   background-color: var(--orange);
+   font-size: 1.25rem;
+   font-weight: 600;
+   color: var(--white);
+   border: none;
+   border-radius: 8px;
+  cursor: pointer;
+
+}
 
 /* ======= Header Section ======= */
+.header {
+  width: 100%;
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+.header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/*Logo & Navigation manu */
+.nav-container {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logo {
+   flex: 0 0 40%;
+   margin: auto;
+}
+.logo >span {
+   color: var(--orange);
+   font-size: 50px;
+}
+.navigation-manu {
+   flex: 0 0 55%;
+  display: flex;
+  justify-content: space-around;
+}
+.navigation-manu > li {
+  list-style: none;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.navigation-manu a {
+  text-decoration: none;
+  color: var(--dark2);
+}
+
+/* Header Content & Banner */
+.banner-container {
+  text-align: center;
+  margin-top: 6rem;
+}
+.header-content {
+  max-width: 60%;
+  margin: 0 auto;
+}
+.header-title {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.banner > img {
+   width: 100%;
+   margin-bottom: 50px;
+   object-fit: cover;
+   object-position: center;
+}
+
+
